@@ -1,0 +1,55 @@
+.container {
+    border: 2px solid black;
+    margin-bottom: 32px;
+    border-radius: 8px;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+background-color: rgb(213, 210, 210);
+gap: 56px;
+margin-bottom: 0;
+border-top: 2px solid rgb(153, 152, 152);
+justify-content: center;
+align-items: center;
+padding-left: 0;
+padding: 24px 0;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;  
+}
+
+.image{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    background-color: black;
+    margin-top: 32px;
+}
+
+.name{
+    font-weight: 700;
+        font-size: 18px;
+      
+}
+
+.location{
+    color: rgb(129, 128, 128);
+}
+
+.tag{
+    color: rgb(129, 128, 128);
+    
+}
+.stats{
+    font-weight: 500;
+        font-size: 18px;
+}
+
+.count{
+    font-weight: 700;
+        font-size: 18px;
+}
